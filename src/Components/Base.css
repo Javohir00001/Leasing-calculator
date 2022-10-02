@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li,
+ol,
+ul {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+    margin: 0;
+    vertical-align: top;
+    font-weight: inherit;
+    font-size: inherit;
+}
+body,
+html {
+    line-height: 1;
+    font-family: 'Nekst-Black';
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    color: #575757;
+}
+input {
+    background-color: transparent;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.flex-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
+}
+
+/* Font-family */
+@font-face {
+    font-family: 'Nekst-Black';
+    src: local('Nekst'), local('Nekst-Regular'),
+        url('../Fonts/Nekst-Black/Nekst-Regular.woff2') format('woff2'),
+        url('../Fonts/Nekst-Black/Nekst-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst-Black';
+    src: local('Nekst Black'), local('Nekst-Black'),
+        url('../Fonts/Nekst-Black/Nekst-Black.woff2') format('woff2'),
+        url('../Fonts/Nekst-Black/Nekst-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../Fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+        url('../Fonts/Gilroy/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
